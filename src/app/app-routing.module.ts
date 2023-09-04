@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AutocadastroComponent } from './autocadastro/autocadastro.component'; // Substitua pelo caminho correto
-  const routes: Routes = [
+import { RelatorioReceitasComponent } from './relatorio-receitas/relatorio-receitas.component';
+const routes: Routes = [
     // Outras rotas
-    { path: 'autocadastro', component: AutocadastroComponent }, // Adicione esta linha
+    { path: 'autocadastro', component: AutocadastroComponent },
+    { path: 'receitas', component: RelatorioReceitasComponent } // Adicione esta linha
   ];
   
 

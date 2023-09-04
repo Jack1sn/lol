@@ -9,13 +9,15 @@ import { AutocadastroComponent } from './autocadastro/autocadastro.component';
 
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { RelatorioReceitasComponent } from './relatorio-receitas/relatorio-receitas.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     AutocadastroComponent,
-    LoginComponent
+    LoginComponent,
+    RelatorioReceitasComponent
   ],
   imports: [
     BrowserModule,
