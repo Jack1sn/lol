@@ -1,2 +1,2 @@
-export * from './relatorio-melhores-clientes.module';
-export * from './relatorio-melhores-clientes';
+export * from './relatorio-clientes.module';
+export * from './relatorio-clientes';
